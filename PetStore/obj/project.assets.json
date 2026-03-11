@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/colmejgil/Documents/quantumcode/PetStore/PetStore.csproj",
+      "projectUniqueName": "/home/colmejgil/Documents/PetStore/PetStore/PetStore.csproj",
       "projectName": "PetStore",
-      "projectPath": "/home/colmejgil/Documents/quantumcode/PetStore/PetStore.csproj",
+      "projectPath": "/home/colmejgil/Documents/PetStore/PetStore/PetStore.csproj",
       "packagesPath": "/home/colmejgil/.nuget/packages/",
-      "outputPath": "/home/colmejgil/Documents/quantumcode/PetStore/obj/",
+      "outputPath": "/home/colmejgil/Documents/PetStore/PetStore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/colmejgil/.nuget/NuGet/NuGet.Config"
@@ -39,13 +39,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "10.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -61,12 +55,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[8.0.25, 8.0.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -75,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
